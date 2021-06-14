@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+	font-family: Open Sans, sans-serif;
+}
+
+#homebody {
+	background: url("psut.jpg");
+	background-repeat: no-repeat;
+}
+
+#psutsys {
+	color: white;
+}
+
+#infotable {
+  margin: 0 auto;
+	border: solid grey;
+}
+
+#infotable th {
+  background-color: midnightblue;
+  color: white;
+	padding: 10px;
+}
+#infotable td {
+  background-color: #DDDDDD;
+	padding: 10px;
+	width: 70%;
+}
+
+#infotable caption {
+	text-align: left;
+}
+
+#regtable {
+	margin: 0 auto;
+}
+
+#regtable th {
+	text-align: right;
+	padding: 10px;
+}
+
+#regtable td {
+	text-align: left;
+	padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#navig {
+	line-style-type: none;
+	padding: 20px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	background-color: midnightblue;
+}
+
+.navitem {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: midnightblue;
+	display: inline;
+}
+
+.navitem:hover {
+	opacity: 85%;
+}
+
+#navighome {
+	line-style-type: none;
+	padding: 20px;
+	width: 350px;
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+
+.navitemhome {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	display: block;
+}
+
+.navlinkhome {
+
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: midnightblue;
+}
+
+.navitemhome:hover {
+	opacity: 85%;
+}
+
+
+.navlink {
+
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+#searchfield {
+	margin: 0 auto;
+	width: 350px;
+}
+
+#search {
+	background-color: midnightblue;
+	font-weight: bold;
+	color: white;
+	border-radius: 7px;
+	border-style: solid;
+	border-color: midnightblue;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#search:hover {
+	opacity: 85%;
+	cursor: pointer;
+}
+
+#delete {
+	background-color: maroon;
+	font-weight: bold;
+	color: white;
+	border-radius: 7px;
+	border-style: solid;
+	border-color: maroon;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#delete:hover {
+	opacity: 85%;
+	cursor: pointer;
+}
+
+#sfield {
+	border-radius: 7px;
+	border-style: solid;
+	border-color: #DDDDDD;
+}
+
+.txtin {
+	margin-top: 5px;
+	border-radius: 7px;
+	border-style: solid;
+	border-color: midnightblue;
+	height: 22px;
+	padding-left: 5px;
+	width: 100%;
+}
+
+.txtinupdate {
+	margin-top: 5px;
+	border-radius: 7px;
+	border-style: solid;
+	border-color: midnightblue;
+	height: 22px;
+	padding-left: 5px;
+}
+
+#regselect {
+	border-radius: 7px;
+	border-style: solid;
+	border-color: midnightblue;
+	height: 27px;
+	width: 100%;
+	padding-left: 5px;
+}
